@@ -9,7 +9,22 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'inter': ['Inter', 'sans-serif'],
+      },
+
+      colors:{
+        'cgreen': '#c5f82a',
+        'white': '#ffffff',
+        'black': '#000000',
+        'gray700': '#333333',
+        'gray800': '#1f1f1f',
+        'gray900': '#141414'
+      },
+  
+
+    },
   },
   plugins: [
     require('daisyui'),
