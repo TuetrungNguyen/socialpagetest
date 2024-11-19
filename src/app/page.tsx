@@ -5,7 +5,7 @@ export default function Home() {
         <img src="/images/avatar-jessica.jpeg" alt="Avatar" className="w-20 h-20 rounded-full mr-2" />
         <h1 className="text-white font-inter font-bold text-2xl pt-5 text-center">Jessica Randall</h1>
         <h1 className="text-cgreen font-inter font-semibold text-sm pt-2 text-center">London, United Kingdom</h1>
-        <p className="text-white font-inter font-normal text-sm pt-5 text-center">"Front-end developer and avid reader"</p>
+        <p className="text-white font-inter font-normal text-sm pt-5 text-center">&quot;Front-end developer and avid reader&quot;</p>
 
         <a href="https://github.com" target="_blank" rel="noopener noreferrer"
           className="w-full bg-gray700 text-white text-sm font-bold mt-5 py-3 rounded-md hover:bg-cgreen hover:text-gray900 transition text-center block"
